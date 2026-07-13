@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>ShushaIMUN | Model United Nations</title>
+
+<link rel="icon" href="logo.jpeg">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,Helvetica,sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#f4f4f4;
+color:#333;
+}
+
+header{
+background:#7B0F17;
+padding:15px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+position:sticky;
+top:0;
+z-index:1000;
+}
+
+.logo{
+display:flex;
+align-items:center;
+gap:15px;
+}
+
+.logo img{
+width:100px;
+height:100px;
+border-radius:50%;
+background:white;
+padding:6px;
+border:3px solid white;
+box-shadow:0 0 20px rgba(255,255,255,.5);
+}
+
+.logo h2{
+color:white;
+margin:0;
+}
+
+.logo p{
+color:white;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:25px;
+font-weight:bold;
+transition:.3s;
+}
+
+nav a:hover{
+color:#FFD700;
+}
+
+.hero{
+height:90vh;
+background:
+linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
+url("https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=1600");
+background-size:cover;
+background-position:center;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+color:white;
+padding:20px;
+}
+
+.hero h1{
+font-size:60px;
+}
+
+.hero p{
+font-size:22px;
+margin:25px 0;
+}
+
+.button{
+background:#B8860B;
+padding:15px 35px;
+color:white;
+text-decoration:none;
+border-radius:8px;
+font-weight:bold;
+font-size:18px;
+}
+
+section{
+padding:80px 10%;
+}
+
+section h2{
+text-align:center;
+color:#7B0F17;
+margin-bottom:35px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.card{
+background:white;
+padding:30px;
+border-radius:12px;
+box-shadow:0 5px 15px rgba(0,0,0,.1);
+text-align:center;
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:35px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+
+<img src="logo.jpeg" alt="ShushaIMUN Logo">
+
+<div>
+
+<h2>ShushaIMUN</h2>
+
+<p>Model United Nations</p>
+
+</div>
+
+</div>
+
+<nav>
+
+<a href="#about">About</a>
+
+<a href="#committees">Committees</a>
+
+<a href="#secretariat">Secretariat</a>
+
+<a href="#contact">Contact</a>
+
+</nav>
+
+</header>
+
+<section class="hero">
+
+<div>
+
+<h1>Welcome to ShushaIMUN</h1>
+
+<p>
+Empowering Future Leaders Through Diplomacy, Leadership and International Cooperation.
+</p>
+
+<a href="#contact" class="button">Apply Now</a>
+
+</div>
+
+</section>
+
+<section id="about">
+
+<h2>About ShushaIMUN</h2>
+
+<p style="text-align:center;font-size:18px;max-width:900px;margin:auto;">
+ShushaIMUN is an international Model United Nations conference where students strengthen their leadership, diplomacy, negotiation and public speaking skills while discussing today's most important global issues. Our mission is to inspire the next generation of leaders through meaningful debate and international cooperation.
+</p>
+
+</section>
+
+<section id="committees">
+
+<h2>Committees</h2>
+
+<div class="grid">
+
+<div class="card">
+
+<h3>UN Security Council</h3>
+
+<p>Peace and Security</p>
+
+</div>
+
+<div class="card">
+
+<h3>General Assembly</h3>
+
+<p>International Cooperation</p>
+
+</div>
+
+<div class="card">
+
+<h3>Human Rights Council</h3>
+
+<p>Human Rights & Equality</p>
+
+</div>
+
+<div class="card">
+
+<h3>World Health Organization</h3>
+
+<p>Global Health Challenges</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="secretariat">
+
+<h2>Secretariat</h2>
+
+<div class="grid">
+
+<div class="card">
+
+<h3>Secretary-General</h3>
+
+<p><strong>Muhammed Yusifzada</strong></p>
+
+</div>
+
+<div class="card">
+
+<h3>Deputy Secretary-General</h3>
+
+<p><strong>Amir Abbasquluzadeh</strong></p>
+
+</div>
+
+<div class="card">
+
+<h3>Advisor</h3>
+
+<p><strong>Farid Aghazada</strong></p>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2>Contact Us</h2>
+
+<div class="grid">
+
+<div class="card">
+
+<h3>Phone</h3>
+
+<p>📞 +994 55 555 90 76</p>
+
+</div>
+
+<div class="card">
+
+<h3>Email</h3>
+
+<p>📧 info@shushaimun.org</p>
+
+</div>
+
+<div class="card">
+
+<h3>Instagram</h3>
+
+<p>📷 @shushaimun</p>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<h2>ShushaIMUN</h2>
+
+<p>Building Tomorrow's Diplomats.</p>
+
+<br>
+
+<p>© 2026 ShushaIMUN. All Rights Reserved.</p>
+
+</footer>
+
+</body>
+
+</html>
